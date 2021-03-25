@@ -1,3 +1,4 @@
+import Filters from "./Filters/Filters";
 
 function App() {
     return (
@@ -7,7 +8,7 @@ function App() {
                     <div className="card" style={{width: "100%"}}>
                         <div className="card-body">
                             <h3>hee!</h3>
-                            Filter
+                            <Filters/>
                         </div>
                     </div>
                 </div>
