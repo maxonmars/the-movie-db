@@ -1,7 +1,5 @@
 import React, {Component} from 'react';
-
-const API_URL = ''
-const API_KEY_3 = ''
+import {API_KEY_3, API_URL} from "../../api/api";
 
 class MoviesList extends Component {
 	constructor() {
